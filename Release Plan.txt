@@ -1,5 +1,5 @@
 Product name: Smart Class Planner
-Team name: 
+Team name: SJCZZ
 Release name: First Release
 Release date: July 23rd
 Revision number: 3
