@@ -1,0 +1,30 @@
+Sprint 1 report.
+Team Name : SJZCC 
+Product Name: Smart Class Planner
+Date : Jul 9
+
+Actions to stop doing : 
+Stop working on the prototype. We just use the prototype to convert a basic idea of that the actual website should like. Therefore, it is now time to stop the prototype but  begin on the actual product. 
+The team should stop doing the scrum for more than 15 minutes to avoid any unnecessary conversations and waste of time. 
+
+Actions to start doing : 
+Team should schedule more group meetings as group discussions help to create ideas and is beneficial for problem solving.
+Team should be noticing the discussion time during the daily scrum meeting as the time constraint for each meeting is only 15 minutes. 
+Team better be focusing on problem solving as well as idea creation as it is hard to move on until one problem is solved. 
+Actions to keep doin : 
+Team should keep having discussion on the functionality of website. This is the best way to ensure that the final product will be something that we want, and can meet our criteria. 
+Team should keep having meeting with TA as TA is a lot more experienced than us and can provide valuable suggestions on the progress and direction of our project. 
+
+Work completed / not completed :
+Completed :
+As a student, I want a website which is convenient and clear to see all course information so that it helps me to save my time during classes selection.
+As a developer, I will use Adobe XD and CSS to create an intuitive user interface by designing a filter function to help students avoid having to choose from abundance of courses.
+As a developer, I will use MySQL to build up an efficient database to support the website.
+
+Work completion rate：
+Total number of user story complete : 3 / 3.
+Total number of estimated ideal work hours completed : 30
+Total number of days during the prior sprint : 
+
+
+
