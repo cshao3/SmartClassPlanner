@@ -1,0 +1,42 @@
+Product name: Smart Class Planner
+Team name: 
+Release name: First Release
+Release date: July 23rd
+Revision number: 3
+Revision date: July 7th
+
+High level goals: (listed in priority order)
+Design a most-intuitive user interface
+Set up an efficient database environment to store the courses information
+Be able to select courses filtered by year, quarter, major, major requirements, electives and general education requirements.
+Be able to see the prerequisites of the course
+Collect previous ratings and comments on courses and use these data to provide suggestions during course selection.
+Generate a clear class plan spreadsheet
+
+User stories for release:
+Sprint 1:
+User story: As a student, I want a website which is convenient and clear to see all course information so that it helps me to save my time during classes selection.
+Developer story: As a developer, I will use Adobe XD and CSS to create an intuitive user interface by designing a filter function to help students avoid having to choose from abundance of courses.
+Developer story: As a developer, I will use MySQL to build up an efficient database to support the website.
+Sprint 2:
+User story: As a student, I want a website which shows me what courses will be provided in following quarters and their prerequisites.
+User story: As a student, I want a website that can classify courses according to my major Requirements and GE requirements.
+Developer story: As a developer, I will label all courses with different tags in my database as categories, so that it can be easier to manipulate by filter function.
+Developer story: As a developer, I want to create a database that stores class information in a given quarter to support my website.
+Sprint 3:
+User story: As a student, I want a website that can give me some recommendations about classes.
+User story: As a student, I want a website that can generate an intuitive class plan in the form of a spreadsheet to represent.
+Developer story: As a developer, I will gather class schedules from users (e.g. class schedules) to generate some suggestions.
+Developer story: As a developer, I will collect previous ratings and comments on courses and use these data to provide suggestions during course selection.
+Product backlog:
+Leaning Languages and tools
+Design user interface
+Beautify the user interface
+Build up database environments
+Implement hash table for search functionality from database
+Import course information from UCSC system
+Tag elements (courses) as categories in database
+Add filter function to the website
+
+Initial release plan presentation:
+See GitHub repo
