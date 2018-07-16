@@ -11,7 +11,7 @@ Actions to start doing :
 Team should schedule more group meetings as group discussions help to create ideas and is beneficial for problem solving.
 Team should be noticing the discussion time during the daily scrum meeting as the time constraint for each meeting is only 15 minutes. 
 Team better be focusing on problem solving as well as idea creation as it is hard to move on until one problem is solved. 
-Actions to keep doin : 
+Actions to keep doing : 
 Team should keep having discussion on the functionality of website. This is the best way to ensure that the final product will be something that we want, and can meet our criteria. 
 Team should keep having meeting with TA as TA is a lot more experienced than us and can provide valuable suggestions on the progress and direction of our project. 
 
