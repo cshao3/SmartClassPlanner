@@ -24,10 +24,8 @@ User story: As a student, I want a website that can classify courses according t
 Developer story: As a developer, I will label all courses with different tags in my database as categories, so that it can be easier to manipulate by filter function.
 Developer story: As a developer, I want to create a database that stores class information in a given quarter to support my website.
 Sprint 3:
-User story: As a student, I want a website that can give me some recommendations about classes.
 User story: As a student, I want a website that can generate an intuitive class plan in the form of a spreadsheet to represent.
-Developer story: As a developer, I will gather class schedules from users (e.g. class schedules) to generate some suggestions.
-Developer story: As a developer, I will collect previous ratings and comments on courses and use these data to provide suggestions during course selection.
+Developer story: As a developer, I want to use javaScript to implement interaction with users to represent the class table.
 Product backlog:
 Leaning Languages and tools
 Design user interface
