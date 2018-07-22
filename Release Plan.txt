@@ -2,39 +2,47 @@ Product name: Smart Class Planner
 Team name: SJCZZ
 Release name: First Release
 Release date: July 23rd
-Revision number: 3
+Revision number: 4
 Revision date: July 7th
 
 High level goals: (listed in priority order)
 Design a most-intuitive user interface
 Set up an efficient database environment to store the courses information
-Be able to select courses filtered by year, quarter, major, major requirements, electives and general education requirements.
+Be able to select courses filtered by quarters for several years. The courses would be label as major requirements, electives.
 Be able to see the prerequisites of the course
-Collect previous ratings and comments on courses and use these data to provide suggestions during course selection.
 Generate a clear class plan spreadsheet
 
 User stories for release:
 Sprint 1:
-User story: As a student, I want a website which is convenient and clear to see all course information so that it helps me to save my time during classes selection.
-Developer story: As a developer, I will use Adobe XD and CSS to create an intuitive user interface by designing a filter function to help students avoid having to choose from abundance of courses.
-Developer story: As a developer, I will use MySQL to build up an efficient database to support the website.
+User story: As a user, I want a website which is clear and convenient to see all courses’ information.
+User story: As a user, I want a website which can display my class schedules for more than one year.
+Developer story: As a developer, I will use Adobe XD to design a user-friendly interface.
+Developer story: As a developer, I will structure my website with html.
+Developer story: As a developer, I will use Css to beautify my website.
+Developer story: I will use Python or manually collect courses information from ucsc system website.
+
 Sprint 2:
-User story: As a student, I want a website which shows me what courses will be provided in following quarters and their prerequisites.
-User story: As a student, I want a website that can classify courses according to my major Requirements and GE requirements.
-Developer story: As a developer, I will label all courses with different tags in my database as categories, so that it can be easier to manipulate by filter function.
-Developer story: As a developer, I want to create a database that stores class information in a given quarter to support my website.
+User story: As a user, I want a website which can display courses in their provided quarters.
+User story: As a user, I want a website which could label the courses with course types.
+Developer story: As a developer, I will design 4 list to represent courses which are provided fall, winter, spring and summer.
+Developer story: As a developer, I will tag these courses so that they can be displayed on specific section of the website.
+
 Sprint 3:
-User story: As a student, I want a website that can generate an intuitive class plan in the form of a spreadsheet to represent.
-Developer story: As a developer, I want to use javaScript to implement interaction with users to represent the class table.
+User story: As a user, I want a website which could display my selected courses in a table, which is similar to the major curriculum chart.
+
+Developer story: As a developer, I will use html and css to design a table.
+Developer story: As a developer, I will use javaScript to create a clickable function that the clicked course will automatically disappear from the list and appear on the specific section of the table.
+Developer story: As a developer, I will create a button to allow user to see the curriculum chart as reference.
+
 Product backlog:
 Leaning Languages and tools
 Design user interface
 Beautify the user interface
-Build up database environments
-Implement hash table for search functionality from database
+Gather courses information
+Implement hash table for displaying functionality
 Import course information from UCSC system
-Tag elements (courses) as categories in database
-Add filter function to the website
+Tag elements (courses) as specified by quarters
+Add interaction function to the website
 
 Initial release plan presentation:
 See GitHub repo

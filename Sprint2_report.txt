@@ -3,7 +3,7 @@ Team Name : SJZCC
 Product Name: Smart Class Planner 
 Date : Jul 16
 
-Actions to stop doing :  Integrate different parts of the project to form one unity.
+Actions to stop doing : Stop using Wordpress since we were not able to deal with functionalities of coding.
 
 Actions to start doing :
     Every group member should start coding and testing their parts.
@@ -11,18 +11,18 @@ Actions to start doing :
     Discussing remaining tasks difficulties together.
 
 Actions to keep doing : 
-    Team should keep having discussion on the functionality and database of website. This is the best way to ensure that the final product will be something that we want, and can meet our criteria. 
+    Team should keep having discussion on the functionality and database of website. This is the best way to ensure that the final product will be something that we want, and can meet our criteria.
+    Team should now consider work as a team that makes sure every effort they made can contribute to the team. 
     Team should keep having meeting with TA as TA is a lot more experienced than us and can provide valuable suggestions on the progress and direction of our project. 
 
 Work completed / not completed : 
 Completed :
-     As a student, I want a website that can classify courses according to my major requirements and GE requirement. 
-    As a developer, I will label all courses with different tags in my database as categories, so that it can be easier to manipulate by filter function.
-    As a developer, I want to create a database that stores class information in a given quarter to support my website.
-Not completed:  
-    Learn JavaScript to use user input and interact with it.
-    Display the available courses during a user-selected quarter in a user-selected school year.
-    As a student, I want a website which shows me what courses will be provided in following quarters and their prerequisites.
+User story: As a user, I want a website which can display courses in their provided quarters.
+User story: As a user, I want a website which could label the courses with course types.
+Developer story: As a developer, I will design 4 list to represent courses which are provided fall, winter, spring and summer.
+
+Not Completed:
+Developer story: As a developer, I will tag these courses so that they can be displayed on specific section of the website.
 
 Work completion rate： Total number of user story complete : 2 / 3. 
 Total number of estimated ideal work hours completed : 48 

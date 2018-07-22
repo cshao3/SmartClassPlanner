@@ -4,7 +4,7 @@ Product Name: Smart Class Planner
 Date : Jul 9
 
 Actions to stop doing : 
-Stop working on the prototype. We just use the prototype to convert a basic idea of that the actual website should like. Therefore, it is now time to stop the prototype but  begin on the actual product. 
+Stop working on the prototype. We just use the prototype to convert a basic idea of that the actual website should like. Therefore, it is now time to stop the prototype but begin on the actual product. 
 The team should stop doing the scrum for more than 15 minutes to avoid any unnecessary conversations and waste of time. 
 
 Actions to start doing : 
@@ -17,14 +17,17 @@ Team should keep having meeting with TA as TA is a lot more experienced than us 
 
 Work completed / not completed :
 Completed :
-As a student, I want a website which is convenient and clear to see all course information so that it helps me to save my time during classes selection.
-As a developer, I will use Adobe XD and CSS to create an intuitive user interface by designing a filter function to help students avoid having to choose from abundance of courses.
-As a developer, I will use MySQL to build up an efficient database to support the website.
+User story: As a user, I want a website which is clear and convenient to see all courses’ information.
+User story: As a user, I want a website which can display my class schedules for more than one year.
+Developer story: As a developer, I will use Adobe XD to design a user-friendly interface.
+Developer story: As a developer, I will structure my website with html.
+Developer story: As a developer, I will use Css to beautify my website.
+Developer story: I will use Python or manually collect courses information from ucsc system website.
 
 Work completion rate：
 Total number of user story complete : 3 / 3.
 Total number of estimated ideal work hours completed : 30
-Total number of days during the prior sprint : 
+Total number of days during the prior sprint : 1
 
 
 
