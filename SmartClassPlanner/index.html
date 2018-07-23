@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/smartclassplanner/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/smartclassplanner/static/css/bootstrap-table.css">
+    <script src="/smartclassplanner/static/js/jquery-2.2.4.js"></script>
+    <script src="/smartclassplanner/static/js/bootstrap.js"></script>
+    <script src="/smartclassplanner/static/js/bootstrap-table.js"></script>
+    <script src="/smartclassplanner/static/js/utils.js"></script>
+    <script src="/smartclassplanner/static/js/putListToTable.js"></script>
+    <script src="/smartclassplanner/static/js/putTableToList.js"></script>
+    <style>
+        .table th, .table td {
+            　　text-align: center;
+            　　height: 38px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="container" style="width: 100%;">
+        <div class="page-header">
+            <h1>Smart Class Planner
+                <small>Computer Science</small>
+
+                <button type="button" class="btn btn-danger btn-default" onclick="userInit()" style="float: right;">
+                    Init data!
+                </button>
+
+                <button type="button" class="btn btn-info btn-default" onclick="showBreif()"
+                        style="float: right;margin-right: 20px;">
+                    Curriculum Chart
+                </button>
+            </h1>
+        </div>
+    </div>
+    <div class="container" style="float: right;width: 100%;">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Class Table</div>
+
+            <!-- Table -->
+            <table id="table"></table>
+        </div>
+    </div>
+
+    <div class="container" style="width: 25%;float: right">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">summer</div>
+
+            <!-- List group -->
+            <ul class="list-group" id="summer">
+            </ul>
+        </div>
+    </div>
+    <div class="container" style="width: 25%;float: right">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Spring</div>
+
+            <!-- List group -->
+            <ul class="list-group" id="spring">
+            </ul>
+        </div>
+    </div>
+    <div class="container" style="width: 25%;float: right">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Winter</div>
+
+            <!-- List group -->
+            <ul class="list-group" id="winter">
+            </ul>
+        </div>
+    </div>
+    <div class="container" style="width: 25%;float: right">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Fall</div>
+
+            <!-- List group -->
+            <ul class="list-group" id="fall">
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Major curriculum breif chart</h4>
+                </div>
+                <div class="modal-body">
+                    <img width="100%" src="/smartclassplanner/static/img/chart.png">
+                </div>
+                <div class="modal-footer">
+                    <button onclick="openChartWeb()"
+                            type="button" class="btn btn-block btn-link">See more chart information.
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function openChartWeb() {
+        window.open("https://undergrad.soe.ucsc.edu/sites/default/files/CS_BS_17-18%20final.pdf");
+        $("#myModal").modal('hide');
+    }
+
+    function userInit() {
+        if (confirm("Do you want to reset the data?")) {
+            initData();
+            readFromData();
+            showList();
+            updateTalbe(computeTableData());
+        }
+    }
+
+    function showBreif() {
+        $("#myModal").modal();
+    }
+
+    const storage = window.localStorage;
+    console.log(location.href);
+    //Initialized value of List and Table
+    if (storage.getItem("isStorage") == null || location.href.search("init") > 0) {
+        initTable()
+    }
+
+    // Gather information from storage
+    var fallList = JSON.parse(storage.getItem("fallList"));
+    var winterList = JSON.parse(storage.getItem("winterList"));
+    var springList = JSON.parse(storage.getItem("springList"));
+    var summerList = JSON.parse(storage.getItem("summerList"));
+
+    var fallTable = JSON.parse(storage.getItem("fallTable"));
+    var winterTable = JSON.parse(storage.getItem("winterTable"));
+    var springTable = JSON.parse(storage.getItem("springTable"));
+    var summerTable = JSON.parse(storage.getItem("summerTable"));
+
+    //showing list below
+    showList();
+    //showing list above
+    initTable(computeTableData());
+
+</script>
+</body>
+</html>
