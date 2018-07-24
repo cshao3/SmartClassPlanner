@@ -1,0 +1,18 @@
+Sprint 3 report. 
+Team Name : SJZCC 
+Product Name: Smart Class Planner 
+Date : Jul 24
+
+Work completed / not completed : 
+Completed :
+User story: As a user, I want a website which could display my selected courses in a table, which is similar to the major curriculum chart.
+
+Developer story: As a developer, I will use html and css to design a table.
+Developer story: As a developer, I will use javaScript to create a clickable function that the clicked course will automatically disappear from the list and appear on the specific section of the table.
+Developer story: As a developer, I will create a button to allow user to see the curriculum chart as reference.
+
+Not Completed: None
+
+Work completion rate： Total number of user story complete : 4 / 4. 
+Total number of estimated ideal work hours completed : 90 
+Total number of days during the prior sprint : 1
