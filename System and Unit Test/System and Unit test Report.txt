@@ -1,19 +1,9 @@
-Product name: Smart Class Planner
-Team name: SJCZZ
-Release name: First Release
-Release date: July 23rd
-Revision number: 4
-Revision date: July 7th
+System and Unit test Report
+Product Name: Smart Class Planner
+Team Name: SJCZZ
+Date: July 24
 
-High level goals: (listed in priority order)
-Design a most-intuitive user interface
-Set up an efficient database environment to store the courses information
-Be able to select courses filtered by quarters for several years. The courses would be label as major requirements, electives.
-Be able to see the prerequisites of the course
-Generate a clear class plan spreadsheet
-
-User stories for release:
-Sprint 1:
+Sprint1
 User story: As a user, I want a website which is clear and convenient to see all courses’ information.
 User story: As a user, I want a website which can display my class schedules for more than one year.
 Developer story: As a developer, I will use Adobe XD to design a user-friendly interface.
@@ -21,29 +11,43 @@ Developer story: As a developer, I will structure my website with html.
 Developer story: As a developer, I will use Css to beautify my website.
 Developer story: I will use Python or manually collect courses information from ucsc system website.
 
-Sprint 2:
+Scenario:
+1. open the browser window and type
+   a. domain into address window: localhost/SmartClassPlanner/
+   b. Click init! to see the initial classes and empty tables for three years
+
+Sprint2
 User story: As a user, I want a website which can display courses in their provided quarters.
 User story: As a user, I want a website which could label the courses with course types.
 Developer story: As a developer, I will design 4 list to represent courses which are provided fall, winter, spring and summer.
 Developer story: As a developer, I will tag these courses so that they can be displayed on specific section of the website.
 
-Sprint 3:
+Scenario: 
+2. After the user clicked the init! button
+   a. All courses in the year will be displayed under each quarter specificly.
+   b. and the labels will be displayed after the courses' name.
+
+Sprint3
 User story: As a user, I want a website which could display my selected courses in a table, which is similar to the major curriculum chart.
 
 Developer story: As a developer, I will use html and css to design a table.
 Developer story: As a developer, I will use javaScript to create a clickable function that the clicked course will automatically disappear from the list and appear on the specific section of the table.
 Developer story: As a developer, I will create a button to allow user to see the curriculum chart as reference.
 
-Product backlog:
-Leaning Languages and tools
-Design user interface
-Beautify the user interface
-Gather courses information
-Implement dynamic table interactions functionalities by JavaScript
-Import course information from UCSC system
-Label elements (courses) as specified by quarters
-Add initialization function to the website
-Add a hyperlink to the webpage of major curriculum chart as reference
+Scenario:
+3. There will be 5 slots for each quarter.
+   a. The user can add their desiered course to the table by clicking on the courses on list
+   b. then there will be a window pops up that shows the detailed information of the course and ask the user if they want to add to their schedule. 
+   c. If they click on "OK", the user will be asked for which year they want to add. The range is from 1 to 3 and numbers greater than 3 or lesser than 1 will cuase the adding fail. Then, the selected course will show up on the specific colomn with selected year. 
+   d. If they click on "Cancel", the user will return to the interface
 
-Initial release plan presentation:
-See GitHub repo
+
+Unit tests:
+We test our js functions in browser that press f12 and type js code into it to test it.
+
+
+
+
+
+
+
