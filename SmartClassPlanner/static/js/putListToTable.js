@@ -96,6 +96,6 @@ function setTable(term, table, list, index) {
         alert("The Term has 5 class. Can't be add!")
     } else {
         list[index]["hidden"] = true;
-        updateTalbe(computeTableData());
+        updateTable(computeTableData());
     }
 }

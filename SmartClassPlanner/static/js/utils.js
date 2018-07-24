@@ -124,7 +124,7 @@ function initTable(datas) {
 }
 
 // update table
-function updateTalbe(datas) {
+function updateTable(datas) {
     $('#table').bootstrapTable("destroy");
     initTable(datas);
     saveDataToLocal();
