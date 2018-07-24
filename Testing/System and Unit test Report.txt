@@ -43,9 +43,9 @@ Scenario:
 
 
 Unit tests:
-We test our js functions in browser that press f12 and type js code into it to test it.
+We test our JS functions in browser that press f12 and type js code into it to test it.
 
-
+Chin-shu Shao: I tested html and css code by blocking other dividers and seeing the visual website in localhost to see if my codes were working.
 
 
 
