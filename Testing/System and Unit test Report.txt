@@ -47,6 +47,7 @@ We test our JS functions in browser that press f12 and type js code into it to t
 
 Chin-shu Shao: I tested html and css code by blocking other dividers and seeing the visual website in localhost to see if my codes were working.
 
+Yalin Zhang: Since I design the UI of the website by drawing it on a paper, I quickly realized that is not an easy thing to display my idea completely. I changed my direction and redesign the UI by what the Bootstrap has.	It is also a challenge to learn how to use Bootstrap, I read a lot of tutorials and fond some similar models and I combined them together. Group members also helped me did some bug fixes.
 
 
 

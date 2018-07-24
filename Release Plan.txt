@@ -43,7 +43,7 @@ Implement dynamic table interactions functionalities by JavaScript
 Import course information from UCSC system
 Label elements (courses) as specified by quarters
 Add initialization function to the website
-Add a hyperlink to the webpage of major curriculum chart as reference
+Add a hyperlink to the webpage of major curriculum chart.  
 
 Initial release plan presentation:
 See GitHub repo
