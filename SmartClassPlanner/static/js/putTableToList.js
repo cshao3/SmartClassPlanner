@@ -41,5 +41,5 @@ function itemClick(field, value, row) {
         }
     });
     showList();
-    updateTalbe(computeTableData());
+    updateTable(computeTableData());
 }
